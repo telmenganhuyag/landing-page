@@ -1,0 +1,38 @@
+.hero {
+    background-color: beige;
+}
+
+.header {
+    border: 2px solid red;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color:inherit;
+    text-decoration: none;
+}
+
+.main {
+    background-color: lightblue;
+}
+
+.box-container {
+    background-color: lightcoral;
+}
+
+.quote-container {
+    background-color: lightgreen;
+}
+
+.signup-container {
+    background-color: grey;
+}
+
+.footer {
+    background-color: lightskyblue;
+}
