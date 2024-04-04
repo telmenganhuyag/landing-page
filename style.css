@@ -1,9 +1,17 @@
 .hero {
-    background-color: beige;
+    background-color: #1f2937;
 }
 
 .header {
     border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10%
+}
+
+.header h1 {
+    font-size:24px;
+    color: #F9faf8;
 }
 
 ul {
@@ -12,13 +20,22 @@ ul {
     gap: 16px;
 }
 
-a {
-    color:inherit;
+a, .main>p {
+    font-size: 18px;
+    color:#e5e7eb;
     text-decoration: none;
 }
 
 .main {
-    background-color: lightblue;
+    display:flex;
+    flex-direction: column;
+}
+
+.main h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+
 }
 
 .box-container {
@@ -26,13 +43,20 @@ a {
 }
 
 .quote-container {
-    background-color: lightgreen;
+    background-color: #e5e7eb;
 }
 
+
 .signup-container {
+    color:black;
     background-color: grey;
 }
 
+button{
+    color:#f9faf8;
+    background-color: #3882f6;
+}
+
 .footer {
-    background-color: lightskyblue;
+    background-color: #1f2937;
 }
